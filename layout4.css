@@ -8,6 +8,14 @@ body {
 	padding: 0;
 }
 
+.first {
+ background-color: orange;
+ top: 50px;
+ width: 700px;
+ height: 50px;
+ position: fixed;
+}
+
 .contents {
 	/* TODO: 이 곳을 채우세요! */
 }
@@ -18,21 +26,46 @@ body {
 }
 
 .main header {
-	background-color: lightgray;
-	/* TODO: 이 곳을 채우세요! */
+	background-color: red;
+	top: 0px;
+	width: 700px;
+	height: 50px;
+	position: fixed;
+
+}
+
+.second {
+	background-color: yellow;
+	top: 100px;
+	width: 700px;
+	height: 100px;
+	position: fixed;
+
 }
 
 .left {
-	background-color: pink;
-	/* TODO: 이 곳을 채우세요! */
+	background-color: greenyellow;
+	top: 200px;
+	left: 0px;
+	width: 350px;
+	height: 100%;
+	position: fixed;
 }
 
 .right {
-	background-color: greenyellow;
-	/* TODO: 이 곳을 채우세요! */
+	background-color: lightblue;
+	top: 200px;
+	left: 350px;
+	width: 350px;
+	height: 100%;
+	position: fixed;
 }
 
 footer {
-	background-color: yellow;
-	/* TODO: 이 곳을 채우세요! */
+	background-color: green;
+	bottom: 0px;
+	width: 700px;
+	height: 50px;
+	position: fixed;
+
 }
